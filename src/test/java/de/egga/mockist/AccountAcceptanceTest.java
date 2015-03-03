@@ -1,4 +1,4 @@
-package de.egga.mockicist;
+package de.egga.mockist;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import static de.egga.mockicist.TransactionFactory.*;
+import static de.egga.mockist.TransactionFactory.*;
 import static java.util.Arrays.asList;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;

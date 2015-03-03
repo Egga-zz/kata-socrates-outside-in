@@ -1,7 +1,7 @@
-package de.egga.mockicist;
+package de.egga.mockist;
 
-import de.egga.mockicist.transactions.AccountStatement;
-import de.egga.mockicist.transactions.Transaction;
+import de.egga.mockist.transactions.AccountStatement;
+import de.egga.mockist.transactions.Transaction;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,15 +11,12 @@ import org.mockito.runners.MockitoJUnitRunner;
 import java.util.ArrayList;
 import java.util.List;
 
-import static de.egga.mockicist.AccountStatementFactory.defaultStatement;
-import static de.egga.mockicist.StatementPrinter.*;
-import static de.egga.mockicist.TransactionFactory.defaultTransaction;
+import static de.egga.mockist.AccountStatementFactory.defaultStatement;
+import static de.egga.mockist.TransactionFactory.defaultTransaction;
 import static java.util.Arrays.asList;
 import static org.mockito.Matchers.anyList;
 import static org.mockito.Matchers.anyString;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class StatementPrinterTest {

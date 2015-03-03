@@ -1,19 +1,19 @@
-package de.egga.mockicist.transactions;
+package de.egga.mockist.transactions;
 
 /**
  * @author egga
  */
-public class Deposit extends Transaction {
+public class Withdrawal extends Transaction {
 
     private final int amount;
 
-    public Deposit(String date, int amount) {
+    public Withdrawal(String date, int amount) {
         super(date);
         this.amount = amount;
     }
 
     @Override
     public int getAmount() {
-        return amount;
+        return -amount;
     }
 }

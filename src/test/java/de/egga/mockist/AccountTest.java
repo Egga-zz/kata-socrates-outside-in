@@ -1,7 +1,7 @@
-package de.egga.mockicist;
+package de.egga.mockist;
 
 
-import de.egga.mockicist.transactions.Transaction;
+import de.egga.mockist.transactions.Transaction;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +10,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.List;
 
-import static de.egga.mockicist.TransactionFactory.defaultTransaction;
+import static de.egga.mockist.TransactionFactory.defaultTransaction;
 import static java.util.Arrays.asList;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;

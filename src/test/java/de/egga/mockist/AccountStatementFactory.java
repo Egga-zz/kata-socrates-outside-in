@@ -1,6 +1,6 @@
-package de.egga.mockicist;
+package de.egga.mockist;
 
-import de.egga.mockicist.transactions.AccountStatement;
+import de.egga.mockist.transactions.AccountStatement;
 
 /**
  * @author egga

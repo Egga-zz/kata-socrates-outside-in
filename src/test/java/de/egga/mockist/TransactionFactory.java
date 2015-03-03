@@ -1,8 +1,8 @@
-package de.egga.mockicist;
+package de.egga.mockist;
 
-import de.egga.mockicist.transactions.Deposit;
-import de.egga.mockicist.transactions.Transaction;
-import de.egga.mockicist.transactions.Withdrawal;
+import de.egga.mockist.transactions.Deposit;
+import de.egga.mockist.transactions.Transaction;
+import de.egga.mockist.transactions.Withdrawal;
 
 public class TransactionFactory {
 

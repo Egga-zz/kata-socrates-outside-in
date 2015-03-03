@@ -1,8 +1,8 @@
-package de.egga.mockicist.transactions;
+package de.egga.mockist.transactions;
 
 import org.junit.Test;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class AccountStatementTest {
 

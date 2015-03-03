@@ -1,4 +1,4 @@
-package de.egga.mockicist.transactions;
+package de.egga.mockist.transactions;
 
 /**
  * @author egga

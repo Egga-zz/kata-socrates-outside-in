@@ -1,15 +1,13 @@
-package de.egga.mockicist;
+package de.egga.mockist;
 
-import de.egga.mockicist.transactions.AccountStatement;
-import de.egga.mockicist.transactions.Transaction;
+import de.egga.mockist.transactions.AccountStatement;
+import de.egga.mockist.transactions.Transaction;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static de.egga.mockicist.TransactionFactory.defaultDeposit;
-import static de.egga.mockicist.TransactionFactory.defaultTransaction;
-import static de.egga.mockicist.TransactionFactory.defaultWithdrawal;
+import static de.egga.mockist.TransactionFactory.*;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 

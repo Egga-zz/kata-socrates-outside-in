@@ -1,7 +1,7 @@
-package de.egga.mockicist;
+package de.egga.mockist;
 
 
-import de.egga.mockicist.transactions.Transaction;
+import de.egga.mockist.transactions.Transaction;
 
 import java.util.List;
 
